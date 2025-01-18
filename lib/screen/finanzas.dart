@@ -355,7 +355,7 @@ class _FinanzasScreenState extends State<FinanzasScreen> {
             //     ],
             //   ),
             // ),
-            SizedBox(height: 10),
+            SizedBox(height: 5),
             Container(
               child: Row(
                 children: [
@@ -367,7 +367,7 @@ class _FinanzasScreenState extends State<FinanzasScreen> {
                       readOnly: true,
                     ),
                   ),
-                  SizedBox(width: 4),
+                  SizedBox(width: 3),
                   Expanded(
                     child: InputText(
                       label: 'Fin',
@@ -379,10 +379,10 @@ class _FinanzasScreenState extends State<FinanzasScreen> {
                 ],
               ),
             ),
-            SizedBox(height: 5),
+            SizedBox(height: 4),
             Center(
               child: Container(
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 1),
+                padding: EdgeInsets.symmetric(horizontal: 5, vertical: 1),
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(15)),
                   color: Colors.green.shade300,
@@ -400,12 +400,12 @@ class _FinanzasScreenState extends State<FinanzasScreen> {
                 ),
               ),
             ),
-            SizedBox(height: 5),
+            SizedBox(height: 4),
             SingleChildScrollView(
               child: Column(
                 children: [
                   Container(
-                    height: size.height * 0.31,
+                    height: size.height * 0.25,
                     width: size.width * 0.95,
                     // color: Colors.green,
                     child: ListView.builder(

@@ -31,7 +31,7 @@ class _MenuScreenState extends State<MenuScreen> {
 
   Widget buildPageView() {
     return SizedBox(
-      height: MediaQuery.of(context).size.height * 0.92,
+      height: MediaQuery.of(context).size.height * 0.91,
       child: PageView(
         controller: _pageController,
         children: [FinanzasScreen(), LinksScreen(), ClavesScreen()],
@@ -53,27 +53,27 @@ class _MenuScreenState extends State<MenuScreen> {
         BottomNavigationBarItem(
           icon: Icon(
             Icons.monetization_on_outlined,
-            size: 35,
+            size: 30,
           ),
-          activeIcon: Icon(Icons.monetization_on_outlined, size: 40),
+          activeIcon: Icon(Icons.monetization_on_outlined, size: 35),
           label: 'Finanzas',
           // backgroundColor: colors.tertiary,
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.link_sharp,
-            size: 35,
+            size: 30,
           ),
-          activeIcon: Icon(Icons.link_sharp, size: 40),
+          activeIcon: Icon(Icons.link_sharp, size: 35),
           label: 'Links',
           // backgroundColor: colors.tertiary,
         ),
         BottomNavigationBarItem(
           icon: Icon(
             Icons.key,
-            size: 35,
+            size: 30,
           ),
-          activeIcon: Icon(Icons.key, size: 40),
+          activeIcon: Icon(Icons.key, size: 35),
           label: 'Claves',
           // backgroundColor: colors.tertiary,
         ),
